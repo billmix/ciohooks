@@ -17,7 +17,7 @@ exports.cioWrite = function cioWrite (req, res) {
     uri:    'https://' + siteid + ':' + apikey + '@track.customer.io/api/v1/customers/' + req.body.email,
     json:    true,
     body: {
-      "accepts_marketing" : req.body.addresses,
+      "accepts_marketing" : req.body.accepts_marketing,
       "addresses" : req.body.addresses,
       "created_at" : moment().unix,
       "currency" : req.body.currency,
@@ -34,12 +34,12 @@ exports.cioWrite = function cioWrite (req, res) {
       "test" : req.body.test,
       "total_spent" : req.body.total_spent,
       "updated_at" : req.body.updated_at,
-      "verified_email" : req.body.verified_email,
-    },
+      "verified_email" : req.body.verified_email
+    }
   };
 
   request(options, function(error, presp, pbody){
-   res.status(200).send(req.body);
+   res.status(200).send(options.body);
    console.log("Success");
   });
 
