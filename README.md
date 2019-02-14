@@ -67,8 +67,9 @@ https://us-central1-ciohooks-XXXXXX.cloudfunctions.net/ciohooks
 
 **Configure your Shopify Webhooks**
 1. Go to Shopify Admin > Settings > Notifications and scroll down to Webhooks
-1. Click `Create webhook`
-1. Use the httpsTrigger URL from the previous step in the Callback URL field
-1. Save and click `Send Test Notification`
+1. Repeat these steps for each of the supported webhooks (see above)
+  1. Click `Create webhook`
+  1. Use the httpsTrigger URL from the previous step in the Callback URL field
+  1. Save and click `Send Test Notification`
 
 
