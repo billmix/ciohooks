@@ -24,7 +24,7 @@ cd ciohooks
 npm install
 ```
 
-**Find your Customer.io `site id` and `api key` from your [Customer.io settings]**(https://fly.customer.io/settings/api_credentials)
+**Find your Customer.io `site id` and `api key` from your [Customer.io settings](https://fly.customer.io/settings/api_credentials)**
 
 **Using the [Google Cloud SDK](https://cloud.google.com/sdk/docs/how-to), you can configure and deploy the new function from the command line**
 
