@@ -22,12 +22,12 @@ npm install
 ### Using the [Google Cloud SDK](https://cloud.google.com/sdk/docs/how-to), you can configure and deploy the new function from the command line
 
 ```
-gcloud functions deploy ciohooks --trigger-http --set-env-vars=[SITEID={ENTER YOUR CUSTOMER.IO SITE ID}, APIKEY={ENTER YOUR SCUSTOMER.IO API KEY}]
+gcloud functions deploy ciohooks --trigger-http --set-env-vars=[SITEID={ENTER YOUR CUSTOMER.IO SITE ID},APIKEY={ENTER YOUR SCUSTOMER.IO API KEY}]
 ```
 
 Example:
 ```
-gcloud functions deploy ciohooks --trigger-http --set-env-vars=[SITEID=123456, APIKEY=123456]
+gcloud functions deploy ciohooks --trigger-http --set-env-vars=[SITEID=123456,APIKEY=123456]
 ```
 
 
