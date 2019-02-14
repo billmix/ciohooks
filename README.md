@@ -3,23 +3,32 @@ This is a basic Google Cloud Function to forward a few important Shopify webhook
 
 # Instructions
 ### Clone the repo
-`git clone https://github.com/billmix/ciohooks.git`
+```
+git clone https://github.com/billmix/ciohooks.git
+```
 
 ### CD into the ciohooks directory
-`cd ciohooks`
+```
+cd ciohooks
+```
 
 ### Install dependencies
-`npm install`
+```
+npm install
+```
 
-### Find your Customer.io `site id` and `api key`
+### Find your Customer.io `site id` and `api key` from your [Customer.io settings](https://fly.customer.io/settings/api_credentials)
 
 ### Using the [Google Cloud SDK](https://cloud.google.com/sdk/docs/how-to), you can configure and deploy the new function from the command line
 
-`gcloud functions deploy ciohooks --trigger-http --set-env-vars=[SITEID={ENTER YOUR CUSTOMER.IO SITE ID}, APIKEY={ENTER YOUR SCUSTOMER.IO API KEY}]`
+```
+gcloud functions deploy ciohooks --trigger-http --set-env-vars=[SITEID={ENTER YOUR CUSTOMER.IO SITE ID}, APIKEY={ENTER YOUR SCUSTOMER.IO API KEY}]
+```
 
 Example:
-
-`gcloud functions deploy ciohooks --trigger-http --set-env-vars=[SITEID=123456, APIKEY=123456]`
+```
+gcloud functions deploy ciohooks --trigger-http --set-env-vars=[SITEID=123456, APIKEY=123456]
+```
 
 
 
