@@ -1,0 +1,23 @@
+{
+  "name": "ciohooks",
+  "version": "1.0.0",
+  "description": "Connect Shopify Webhooks to Customer.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://source.developers.google.com/p/ciohooks-231423/r/ciohooks"
+  },
+  "dependencies": {
+    "request": "^2.8",
+    "moment": "^2.2"
+  },
+  "keywords": [
+    "customer.io",
+    "shopify"
+  ],
+  "author": "Bill Miksich",
+  "license": "ISC"
+}
