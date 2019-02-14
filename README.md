@@ -1,6 +1,13 @@
 # ciohooks
 This is a basic Google Cloud Function to forward a few important Shopify webhooks to Customer.io.
 
+There is currently support for the following Shopify Webhooks:
+- Customer creation
+- Customer update
+- Order creation
+- Order payment
+- Order update
+
 # Instructions
 **Clone the repo**
 ```
