@@ -1,7 +1,7 @@
 {
   "name": "ciohooks",
   "version": "1.0.0",
-  "description": "Connect Shopify Webhooks to Customer.io",
+  "description": "Connect Shopify Webhooks to Customer.io Email Automation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
